@@ -53,12 +53,12 @@ Each ```src/``` function is fully typed and documented; there is no global state
 ## Dataset note
 
 The original CSV supplied with the task contains trade & quote messages only for ```AAPL```.
-To demonstrate multi‑asset functionality the notebook:
+To demonstrate multi‑asset functionality we performed the followings:
 
 * Duplicates AAPL’s raw rows and
 * Re‑labels the symbol column to JPM.
 
-This synthetic step is clearly flagged in the notebook and in comments; no statistical conclusions are drawn from the duplicated data.
+No statistical conclusions are drawn from the duplicated data.
 When you supply genuine multi‑asset data, the same code paths will work unmodified.
 
 
