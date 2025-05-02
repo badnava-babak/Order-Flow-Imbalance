@@ -68,4 +68,4 @@ When you supply genuine multi‑asset data, the same code paths will work unmodi
 * Running ```python main.py``` or executing the notebook end‑to‑end creates every intermediate artefact in a deterministic manner.
 * Code is MIT‑licensed; feel free to reuse or extend.
 
-Questions? Open an issue or reach me at ```babak.badnava@gmail.com```.
+Questions? Open an issue or reach me at ```babak.badnava@ku.edu```.
