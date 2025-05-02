@@ -7,7 +7,7 @@ Order‑Flow Imbalance (OFI) features exactly as defined in **Cont, Cucuringu & 
 * **Per‑message OF / OFI** for the top 10 limit‑order‑book levels  
 * **Bar‑level aggregation & depth normalisation** (Eq. 3)  
 * **Integrated OFI** via PCA (Eq. 4)  
-* **Multi‑asset alignment & sparsity‑ready design matrix**
+* **Multi‑asset OFI**
 
 A short LaTeX PDF in `/doc/` answers the three conceptual questions requested in the task.
 
