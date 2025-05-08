@@ -1,4 +1,4 @@
-# OFI Feature Construction—Blockhouse Capital Work‑Trial  
+# OFI Feature Construction
 Babak Badnava · May 2025
 
 This repository contains **clean, modular Python code** for constructing  
