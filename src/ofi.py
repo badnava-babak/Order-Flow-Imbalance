@@ -51,11 +51,11 @@ def _side_flow(
     if side == "bid":
         of = np.where(dp > 0, q,  # price improved
                       np.where(dp == 0, dq,  # same price, size change
-                               -q.shift()))  # price deteriorated
+                               -q))  # price deteriorated
     else:  # 'ask'
         of = np.where(dp < 0, -q,  # price improved (ask ↓)
                       np.where(dp == 0, dq,
-                               q.shift()))  # price deteriorated (ask ↑)
+                               q))  # price deteriorated (ask ↑)
     return pd.Series(of, index=df.index)
 
 
@@ -101,7 +101,7 @@ def aggregate_ofi(
     freq :
         Resampling frequency (“1min”, “5s”, …).
     normalise :
-        If ``True`` divide by average top‑10 depth (paper Eq. 3).
+        If ``True`` divide by average top‑10 depth (paper Eq.3).
 
     Returns
     -------
@@ -134,7 +134,7 @@ def aggregate_ofi(
 
 def integrated_ofi(ofi_bar: pd.DataFrame, n_components: int) -> pd.Series:
     """
-    Compute Integrated OFI (first PC, L¹‑normalised) as in Eq. (4).
+    Compute Integrated OFI (first PC, L¹‑normalised) as in Eq.(4).
 
     Parameters
     ----------
@@ -176,7 +176,7 @@ def multi_asset_ofi(
     freq :
         Resampling frequency for bar aggregation.
     normalise :
-        Whether to apply depth normalisation (paper Eq. 3).
+        Whether to apply depth normalisation (paper Eq.3).
 
     Returns
     -------
