@@ -2,7 +2,7 @@
 Babak Badnava · May 2025
 
 This repository contains **clean, modular Python code** for constructing  
-Order‑Flow Imbalance (OFI) features exactly as defined in **Cont, Cucuringu & Zhang (2023)**:
+Order‑Flow Imbalance (OFI) features exactly as defined in **<a href="https://arxiv.org/abs/2112.13213">Cont, Cucuringu & Zhang (2023)</a>**:
 
 * **Per‑message OF / OFI** for the top 10 limit‑order‑book levels  
 * **Bar‑level aggregation & depth normalisation** (Eq. 3)  
