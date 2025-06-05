@@ -9,7 +9,7 @@ Order‑Flow Imbalance (OFI) features exactly as defined in **<a href="https://a
 * **Integrated OFI** via PCA (Eq. 4)  
 * **Multi‑asset OFI**
 
-A short LaTeX PDF in `/doc/` discusses the paper in details.
+A short LaTeX PDF in `/doc/` discusses the motivation of the paper for using multi-level OFI, why they have used Lasso, and the relation between trade volume and OFI in detail.
 
 ---
 
